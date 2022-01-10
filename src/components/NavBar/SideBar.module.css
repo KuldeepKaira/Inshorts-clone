@@ -1,0 +1,123 @@
+.sideBar {
+  background-color: #303036;
+  height: 50rem;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: -15vw;
+  transition: 350ms;
+}
+
+.showSidebar {
+  left: 0 !important;
+}
+
+.sideBarContainer {
+  position: relative;
+}
+
+.menuDiv {
+  position: absolute;
+  top: 0;
+  left: 10rem;
+  margin-left: 1.2rem;
+  position: relative;
+}
+.menuIcon {
+  height: 1.6rem;
+  position: absolute;
+  top: 1.5rem;
+  cursor: pointer;
+  color: black;
+}
+.menuTag {
+  position: absolute;
+  font-size: 0.8rem;
+  left: 1.8rem;
+  font-family: Roboto, sans-serif;
+  color: #9b9b9f;
+  animation-name: menuIcon;
+  animation-duration: 350ms;
+}
+
+@keyframes menuIcon {
+  from {
+    height: 1.6rem;
+  }
+  to {
+    height: 0.1rem;
+  }
+}
+
+.language {
+  display: flex;
+  height: fit-content;
+  margin-top: 1rem;
+  border: 0.5px solid #808290;
+  border-radius: 4px;
+}
+
+.english {
+  border-radius: 4px 0 0 4px;
+}
+.hindi {
+  border-radius: 0 4px 4px 0;
+}
+
+.languagebtn {
+  border: none;
+  height: fit-content;
+  font-size: 14px;
+  padding: 0.5rem;
+  margin: 0.1rem;
+  background-color: #303036;
+  color: #808290;
+  cursor: pointer;
+}
+
+.active {
+  color: #303036;
+  background-color: #808290;
+}
+
+hr.solid {
+  position: absolute;
+  top: 6rem;
+  left: -2rem;
+  border-top: 1px solid #bbb;
+  width: 12rem;
+}
+
+.labelCategories {
+  color: #808290;
+  font-size: 14px;
+  position: absolute;
+  top: 7rem;
+  left: -2rem;
+}
+
+/* List starts here */
+
+.list {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  left: -2rem;
+  top: 9rem;
+  width: 11.5rem;
+}
+
+.listItem {
+  width: 100%;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2px;
+  border-radius: 2px;
+}
+
+.listItem:hover {
+  background-color: #5a5a5a;
+}

@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 0 6px rgba(0, 0, 0, 0.616);
+  background-color: white;
+  /* position: relative; */
+}
+
+.logoImg {
+  height: 3.55rem;
+  position: absolute;
+  left: 36.16rem;
+  top: 0.455rem;
+}

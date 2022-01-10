@@ -1,0 +1,15 @@
+.newsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.sideBarApp {
+  position: absolute;
+  bottom: 50rem;
+  left: 50rem;
+  z-index: 200;
+}

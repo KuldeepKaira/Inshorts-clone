@@ -1,0 +1,18 @@
+.addContainer {
+  background-color: #f44336;
+  height: 2.86rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.addText {
+  color: white;
+  font-size: 14px;
+  margin-left: 3rem;
+  margin-right: 8.5rem;
+}
+.addApp {
+  height: 2.32rem;
+  margin-right: 2rem;
+}
