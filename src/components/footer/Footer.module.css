@@ -3,6 +3,7 @@
   background-color: #323232;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
 }
 
 .inshorts {
@@ -31,7 +32,7 @@ span {
 
 hr.solid {
   position: absolute;
-  bottom: -52rem;
+  bottom: 5rem;
   left: 21rem;
   border-top: 1px solid #bbb;
   width: 9rem;
